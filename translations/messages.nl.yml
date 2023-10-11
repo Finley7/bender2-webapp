@@ -1,0 +1,22 @@
+platform:
+  staff:
+    navigation:
+      dashboard: 'Dashboard'
+      checkup_moments: 'Aanwezigheid'
+      students: 'Studenten'
+      teachers: 'Docenten'
+    dashboard:
+      shortcuts: 'Snelkoppelling'
+
+    component:
+      quick-checkup-moment:
+        title: 'Maak een nieuwe Bender'
+        create: 'Bender aanmaken'
+        close: 'Annuleren'
+form:
+  staff:
+    label:
+      checkupmoment:
+        name: 'Naam'
+      placeholder:
+        name: 'Naam van de bender'

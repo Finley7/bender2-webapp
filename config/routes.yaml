@@ -1,5 +1,39 @@
-controllers:
+staff_platform_controllers:
     resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+        path: ..\src\Controller\Platform\Staff
+        namespace: App\Controller\Platform\Staff
+    type: annotation
+    prefix: '/staff/'
+    name_prefix: 'platform_staff_'
+
+staff_ajax_controllers:
+    resource:
+        path: ..\src\Controller\Platform\Staff\Ajax
+        namespace: App\Controller\Platform\Staff\Ajax
+    type: annotation
+    prefix: '/staff/ajax/'
+    name_prefix: 'platform_staff_ajax_'
+
+student_platform_controllers:
+    resource:
+        path: ..\src\Controller\Platform\Student
+        namespace: App\Controller\Platform\Student
+    type: annotation
+    prefix: '/student/'
+    name_prefix: 'platform_student_'
+
+staff_api_controllers:
+    resource:
+        path: ..\src\Controller\Api\Staff
+        namespace: App\Controller\Api\Staff
+    type: annotation
+    prefix: '/api/staff/'
+    name_prefix: 'api_staff_'
+
+student_api_controllers:
+    resource:
+        path: ..\src\Controller\Api\Student
+        namespace: App\Controller\Api\Student
+    type: annotation
+    prefix: '/api/student/'
+    name_prefix: 'api_student_'
